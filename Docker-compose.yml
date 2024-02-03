@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ai-notebook:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/notebooks
+    command: ["jupyter", "notebook", "--notebook-dir=/notebooks", "--ip='0.0.0.0'", "--allow-root"]
