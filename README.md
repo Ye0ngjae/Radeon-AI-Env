@@ -7,8 +7,8 @@ Jupyter Notebook과 필요한 AI 라이브러리들을 포함한 Docker 환경�
 **1. 먼저 이 프로젝트를 로컬 시스템에 클론합니다.**
 
 ```bash
-git clone https://github.com/your-github-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/Ye0ngjae/your-Radeon-AI-Env.git
+cd Radeon-AI-Env
 ```
 
 **2. Docker와 Docker Compose가 설치되어 있는지 확인합니다. 설치되어 있지 않다면, 각각의 공식 웹사이트에서 다운로드 받을 수 있습니다.**
